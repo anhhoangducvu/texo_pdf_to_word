@@ -90,6 +90,6 @@ with col2:
                 except Exception as e:
                     st.error(f"❌ Lỗi giải mã: {e}")
     else:
-        st.markdown("<div style='height: 200px; border: 2px dashed #333; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #666;'>Kéo thả tệp PDF vào đây để giải mã</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: center; color: #64748b; font-weight: 500; padding: 100px 20px;'>Hệ thống đang sẵn sàng... <br>Vui lòng tải tệp PDF ở cột bên trái để AI bắt đầu giải mã.</div>", unsafe_allow_html=True)
 
 st.markdown("<div class='footer'>TEXO Engineering Department | Version 2.0 (Standalone) | Hoàng Đức Vũ</div>", unsafe_allow_html=True)
